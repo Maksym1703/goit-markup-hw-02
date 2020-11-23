@@ -2,7 +2,7 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #212121;
-  --secondary-color; #757575;
+  --secondary-color: #757575;
   --hero-color: #ffffff;
   --accent-color-blue: #2196f3;
 }
@@ -30,7 +30,8 @@ body {
 }
 /*==== Логотип на темном фоне=====*/
 .light-theme {
-  /*color: var(--hero-color);*/
+  color: var(--hero-color);
+  background: #2f303a;
 }
 
 /*========= Конец "Логотип" ========*/
