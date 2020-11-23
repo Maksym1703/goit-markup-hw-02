@@ -4,136 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
     
 <!--Логотип-->
 <nav class="logo">
     <a class="logo-link" href="/" aria-label="логотип сайта">
-    <p lang="en"> <span class="logo-text">Web</span>Studio</p>
+    <p class="logo-text" lang="en"> <span class="logo-text-accent">Web</span>Studio</p>
     </a>
 <!--Главная навигация-->
-            <ul>
-                <li><a href="#">Студия</a></li>
-                <li><a href="#">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+        <ul class="navigation-list">
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">Студия</a></li>
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">Портфолио</a></li>
+            <li class="navigation-list-item"><a class="navigation-list-link" href="#">Контакты</a></li>
+        </ul>
         </nav>
-        <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111 ">+38 096 111 11 11</a>
+        <addressclass="address">
+    <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+    <a class="address-contact" href="tel:+380961111111 ">+38 096 111 11 11</a>
         </address>
     </header>
     <main>
 
 <!--Герой-->
 <!-- <h1>Фильтры</h1> -->
-    <ul>
-    <li><button type="button">Все</button></li>
-    <li><button type="button">Веб-сайты</button></li>
-    <li><button type="button">Приложения</button></li>
-    <li><button type="button">Дизайн</button></li>
-    <li><button type="button">Маркетинг</button></li>
+    <ul class="filter">
+    <li class="filter-list"><button class="filter-list-btn" type="button">Все</button></li>
+    <li class="filter-list"><button class="filter-list-btn" type="button">Веб-сайты</button></li>
+    <li class="filter-list"><button class="filter-list-btn" type="button">Приложения</button></li>
+    <li class="filter-list"><button class="filter-list-btn" type="button">Дизайн</button></li>
+    <li class="filter-list"><button class="filter-list-btn" type="button">Маркетинг</button></li>
     </ul>
 
 <!--Проекты-->
-    <ul>
-        <li><a href="">Технокряк
-            <img src="./images-portfolio/img1.jpg" alt="Технокряк">
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-            <p>Технокряк это современная площадка рапространения коронавируса. 
-             Компании используют эту платформу для цифрового шпионажа и 
-             атак на защищённые сервера конкурентов.</p>
-            </a>
-            </li>
-        <li><a href="">Постер New Orlean vs Golden Star
-            <img src="./images-portfolio/img2.jpg" alt="Постер New Orlean vs Golden Star">
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+    <ul class="projects">
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img1.jpg" alt="Технокряк">
+            <h2 class="projects-text">Технокряк</h2>
+            <p class="projects-text-item">Веб-сайт</p>
         </li>
-        <li><a href="">Ресторан Seafood
-            <img src="./images-portfolio/img3.jpg" alt="Ресторан Seafood">
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img2.jpg" alt="Постер New Orlean vs Golden Star">
+            <h2 class="projects-text">Постер New Orlean vs Golden Star</h2>
+            <p class="projects-text-item">Дизайн</p>
         </li>
-        <li><a href="">Проект Prime
-            <img src="./images-portfolio/img4.jpg" alt="Проект Prime">
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img3.jpg" alt="Ресторан Seafood">
+            <h2 class="projects-text">Ресторан Seafood</h2>
+            <p class="projects-text-item">Приложение</p>
         </li>
-        <li><a href="">Проект Boxes
-            <img src="./images-portfolio/img5.jpg" alt="Проект Boxes">
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img4.jpg" alt="Проект Prime">
+            <h2 class="projects-text">Проект Prime</h2>
+            <p class="projects-text-item">Маркетинг</p>
         </li>
-        <li><a href="">Inspiration has no Borders
-            <img src="./images-portfolio/img6.jpg" alt="Inspiration has no Borders">
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img5.jpg" alt="Проект Boxes">
+            <h2 class="projects-text">Проект Boxes</h2>
+            <p class="projects-text-item">Приложение</p>  
         </li>
-        <li><a href="">Издание Limited Edition
-            <img src="./images-portfolio/img7.jpg" alt="Издание Limited Edition">
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img6.jpg" alt="Inspiration has no Borders">
+            <h2 class="projects-text">Inspiration has no Borders</h2>
+            <p class="projects-text-item">Веб-сайт</p> 
         </li>
-        <li><a href="">Проект LAB
-            <img src="./images-portfolio/img8.jpg" alt="Проект LAB">
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img7.jpg" alt="Издание Limited Edition">
+            <h2 class="projects-text">Издание Limited Edition</h2>
+            <p class="projects-text-item">Дизайн</p> 
         </li>
-        <li><a href="">Growing Business
-            <img src="./images-portfolio/img9.jpg" alt="Growing Business">
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
-            <p>Технокряк это современная площадка рапространения коронавируса.
-            Компании используют эту платформу для цифрового шпионажа и
-            атак на защищённые сервера конкурентов.</p>
-            </a>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img8.jpg" alt="Проект LAB">
+            <h2 class="projects-text">Проект LAB</h2>
+            <p class="projects-text-item">Маркетинг</p>
         </li>
-    </ul>
+        <li class="projects-list">
+            <img class="projects-img" src="./images-portfolio/img9.jpg" alt="Growing Business">
+            <h2 class="projects-text">Growing Business</h2>
+            <p class="projects-text-item">Приложение</p>
+        </li>
+        </ul>
     </main>
 
 <!-- Футер -->
-    <footer>
+    <footer class="footer">
         <a class="logo-link" href="/" aria-label="логотип сайта">
-        <p lang="en"> <span class="logo-text">Web</span>Studio</p>
+        <p class="logo-text" lang="en"> <span class="logo-text-accent">Web</span>Studio</p>
         </a>
-        <address>
+        <address class="footer-address">
             г. Киев, пр-т Леси Украинки, 26
         </address>
-        <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111 ">+38 096 111 11 11</a>
+        <address class="footer-contact">
+            <a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-tel" href="tel:+380961111111 ">+38 096 111 11 11</a>
         </address>
     </footer>
 </body>
