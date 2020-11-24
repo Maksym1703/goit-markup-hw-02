@@ -6,7 +6,13 @@
   --hero-color: #ffffff;
   --accent-color-blue: #2196f3;
 }
-
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  font-style: normal; /* Убираем курсив на ссылках */
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
 body {
   font-family: var(--main-font);
 }
@@ -14,6 +20,7 @@ body {
 /*========= "Логотип" ========*/
 
 .logo-text {
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -184,6 +191,7 @@ body {
 /*==== Страница "Портфолио" ====*/
 
 .filter-list-btn {
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
