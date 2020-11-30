@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -17,9 +20,11 @@
 
         <!--Логотип-->
         <nav class="logo">
+            <div class="container">
             <a class="logo-link" href="/" aria-label="логотип сайта">
-                <p class="logo-text" lang="en"> <span class="logo-text-accent">Web</span>Studio</p>
+            <p class="logo-text" lang="en"> <span class="logo-text-accent">Web</span>Studio</p>
             </a>
+            
             <!--Главная навигация-->
             <ul class="navigation-list">
                 <li class="navigation-list-item"><a class="navigation-list-link" href="#">Студия</a></li>
@@ -27,6 +32,7 @@
                 </li>
                 <li class="navigation-list-item"><a class="navigation-list-link" href="#">Контакты</a></li>
             </ul>
+            </div>
         </nav>
         <address class="address">
             <a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -37,13 +43,16 @@
 
         <!--Герой-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-btn" type="button">Заказать услугу</button>
+            <div class="container">
+            <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+           <button class="hero-btn" type="button">Заказать услугу</button>
+        </div>
         </section>
-
+        
         <!--Особенности-->
         <!--<h2>Наши особенности</h2>-->
         <section class="special">
+            <div class="container">
             <ul class="special-list">
                 <li>
                     <h3 class="special-list-title">Внимание к деталям</h3>
@@ -66,10 +75,12 @@
                         заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
-
+   
         <!-- Вид деятельности-->
-        <section class="work">
+            <section class="work">
+            <div class="container"></div>
             <h2 class="work-title">Чем мы занимаемся</h2>
             <ul class="work-list">
                 <li class="work-list-item">
@@ -85,10 +96,12 @@
                         height="294" />
                 </li>
             </ul>
+            </div>
         </section>
-
+        
         <!-- Наша команда-->
         <section class="team">
+            <div class="container"></div>
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-list-item">
@@ -112,11 +125,13 @@
                     <p class="team-name-position" lang="en">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
-    </main>
+           </main>
 
     <!--Подвал-->
-    <footer class="footer">
+        <footer class="footer">
+        <div class="container">
         <a class="logo-link" href="/" aria-label="логотип сайта">
             <p class="light-theme logo-text" lang="en"> <span class="logo-text-accent">Web</span>Studio</p>
         </a>
@@ -126,6 +141,7 @@
             <a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="footer-tel" href="tel:+380961111111 ">+38 096 111 11 11</a>
         </address>
+        </div>
     </footer>
-</body>
+   </body>
 </html>
